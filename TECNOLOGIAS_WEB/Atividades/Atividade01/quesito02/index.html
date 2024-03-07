@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seletor CSS</title>
+    <style>
+      h1 {
+        /*Seletor de elemento*/
+        color: red;
+      }
+      .titulo2 {
+        /*Seletor de classe*/
+        color: green;
+      }
+      #titulo3 {
+        /*Seletor de id*/
+        color: aqua;
+      }
+      h4[name="titulo4"] /*Seletor de atributo*/ {
+        color: brown;
+      }
+      body > h5 {
+        /*Seletor de filho*/
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Olá mundo 1</h1>
+    <h2 class="titulo2">Olá mundo 2</h2>
+    <h3 id="titulo3">Olá mundo 3</h3>
+    <h4 name="titulo4">Olá mundo 4</h4>
+    <h5>Olá mundo 5</h5>
+  </body>
+</html>
